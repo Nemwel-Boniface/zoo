@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function ZooContainer() {
   return (
     <div className="App">
       <header className="App-header">
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default ZooContainer;
