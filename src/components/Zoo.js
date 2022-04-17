@@ -1,10 +1,9 @@
-import React from "react";
-const Zoo = () => {
-  return (
-    <div className="Zoo">
-      <h1>This is Nemwel's ZOO project</h1>
-    </div>
-  )
-}
+import React from 'react';
 
-export default Zoo
+const Zoo = () => (
+  <div className="Zoo">
+    <h1>This is Nemwel&apos;s ZOO project</h1>
+  </div>
+);
+
+export default Zoo;
