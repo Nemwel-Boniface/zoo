@@ -1,4 +1,5 @@
 import React from 'react';
+import Proptypes from 'prop-types';
 
 const Animal = (props) => {
   const { animal } = props;
@@ -13,4 +14,13 @@ const Animal = (props) => {
     </div>
   );
 };
+
+Animal.propTypes = {
+  animal: Proptypes.shape({
+    id: Proptypes.number.isRequired,
+  name: Proptypes.string.isRequired,
+  animalType: Proptypes.string.isRequired,
+  image: Proptypes.string.isRequired
+  })
+}
 export default Animal;
