@@ -5,6 +5,7 @@ import ZooContainer from './ZooContainer';
 import './stylesheets/ZooContainer.css';
 import './stylesheets/Header.css';
 import './stylesheets/Zoo.css';
+import './stylesheets/landing.css';
 import store from './redux/ZooConfig';
 
 ReactDOM.render(
