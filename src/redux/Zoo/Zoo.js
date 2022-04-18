@@ -30,7 +30,7 @@ export const getAnimalsFromAPI = () => (dispatch) => fetch(baseURL)
       habitats: animal.habitat,
       diet: animal.diet,
       locattions: animal.geo_range,
-      Image: animal.image_link,
+      image: animal.image_link,
     }));
     dispatch({ type: GETFROMAPI, payLoad: animals });
   }).catch(() => {});
