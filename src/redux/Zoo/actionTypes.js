@@ -1,1 +1,2 @@
-export const GETFROMAPI = 'getfromapi';
+const GETFROMAPI = 'getfromapi';
+export default GETFROMAPI
