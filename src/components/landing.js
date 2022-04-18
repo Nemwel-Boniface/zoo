@@ -1,15 +1,13 @@
 import React from 'react';
+import lnd from '../images/Lion.png';
 
-const Landing = () => {
-  let loadingGIF = require('../images/Lion.png');
-  return (
-    <div className='Landing'>
-      <img src={loadingGIF} alt="Gif"/>
-      <div className='LandingDetails'>
-        <h2>Lions</h2>
-        <p>The king of the jungle</p>
-      </div>
+const Landing = () => (
+  <div className="Landing">
+    <img src={lnd} alt="Gif" />
+    <div className="LandingDetails">
+      <h2>Lions</h2>
+      <p>The king of the jungle</p>
     </div>
-  )
-}
-export default Landing
+  </div>
+);
+export default Landing;
