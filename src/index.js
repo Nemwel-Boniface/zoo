@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 import ZooContainer from './ZooContainer';
 import './stylesheets/ZooContainer.css';
 import './stylesheets/Header.css';
+import store from './redux/ZooConfig';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <ZooContainer />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root'),
 );
