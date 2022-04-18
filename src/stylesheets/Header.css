@@ -1,0 +1,22 @@
+.Header {
+  background: rgba(67, 105, 178, 1);
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px 5%;
+  margin: auto 0;
+}
+
+.Header .headerIcons {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 2%;
+}
+
+.Header .headerIcons span {
+  cursor: pointer;
+}
+
+.Header .headerIcons span .fa-microphone {
+  padding-right: 20px;
+}
