@@ -1,19 +1,18 @@
-import { Action } from "history";
-import GETFROMAPI from "./actionTypes";
+import GETFROMAPI from './actionTypes';
 
 const baseURL = 'https://zoo-animal-api.herokuapp.com/animals/rand/10';
 
-let initialState = [];
+const initialState = [];
 const ZooReducer = (state = initialState, action) => {
-  switch(Action.type) {
+  switch (action.type) {
     case GETFROMAPI:
       return [
-        ...action.payLoad
-      ]
+        ...action.payLoad,
+      ];
     default:
       return state;
   }
-}
+};
 
 export const getAnimalsFromAPI = () => (dispatch) => fetch(baseURL)
   .then((res) => res.json()).then((data) => {
@@ -33,7 +32,7 @@ export const getAnimalsFromAPI = () => (dispatch) => fetch(baseURL)
       locattions: animal.geo_range,
       Image: animal.image_link,
     }));
-    dispatch({type: GETFROMAPI, payLoad: animals});
+    dispatch({ type: GETFROMAPI, payLoad: animals });
   }).catch(() => {});
 
-export default ZooReducer
+export default ZooReducer;
