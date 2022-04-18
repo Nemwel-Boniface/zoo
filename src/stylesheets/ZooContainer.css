@@ -1,10 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
-.ZooContainer{
+
+.ZooContainer {
   width: 100%;
-  background: rgba(67, 105, 178, .6);
+  background: rgba(67, 105, 178, 0.6);
 }
