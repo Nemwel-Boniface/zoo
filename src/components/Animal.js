@@ -18,9 +18,9 @@ const Animal = (props) => {
 Animal.propTypes = {
   animal: Proptypes.shape({
     id: Proptypes.number.isRequired,
-  name: Proptypes.string.isRequired,
-  animalType: Proptypes.string.isRequired,
-  image: Proptypes.string.isRequired
-  })
-}
+    name: Proptypes.string.isRequired,
+    animalType: Proptypes.string.isRequired,
+    image: Proptypes.string.isRequired,
+  }).isRequired,
+};
 export default Animal;
