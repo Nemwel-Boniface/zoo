@@ -1,5 +1,6 @@
 import React from 'react';
 import Proptypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Animal = (props) => {
   const { animal } = props;
@@ -8,9 +9,11 @@ const Animal = (props) => {
   } = animal;
   return (
     <div id={id} className="animal">
-      <div className='imgroute'>
-      <img src={image} alt="Zoo animal" />
-      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+      <div className="imgroute">
+        <img src={image} alt="Zoo animal" />
+        <Link to={`/details/${id}`}>
+          <i className="fa fa-arrow-circle-o-right" aria-hidden="true" />
+        </Link>
       </div>
       <h2>{name}</h2>
       <h3>{animalType}</h3>
