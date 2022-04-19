@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import ZooContainer from './ZooContainer';
@@ -9,8 +10,10 @@ import './stylesheets/landing.css';
 import store from './redux/ZooConfig';
 
 ReactDOM.render(
+  <BrowserRouter>
   <Provider store={store}>
     <ZooContainer />
-  </Provider>,
+  </Provider>
+  </BrowserRouter>,
   document.getElementById('root'),
 );
