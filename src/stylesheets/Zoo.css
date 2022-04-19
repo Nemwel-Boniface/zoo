@@ -7,22 +7,29 @@
 .Zoo ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
   text-align: right;
 }
 
 .Zoo ul .animal {
   margin: 30px 0;
 }
+.Zoo ul .animal .imgroute {
+  display: flex;
+}
 
-.Zoo ul .animal img {
-  height: 220px;
+.Zoo ul .animal .imgroute img {
+  height: 180px;
   width: 100%;
   max-width: 100%;
   object-fit: cover;
 }
+.Zoo ul .animal .imgroute i {
+  padding: 7px;
+  cursor: pointer;
+  font-size: 22px;
+}
 
 .Zoo ul .animal h2,
 h3 {
-  padding: 8px;
+  padding: 12px;
 }
