@@ -1,13 +1,8 @@
-import React, { useEffect } from 'react';
-import { shallowEqual, useDispatch, useSelector } from 'react-redux';
-import { getAnimalsFromAPI } from '../redux/Zoo/Zoo';
+import React from 'react';
+import { shallowEqual, useSelector } from 'react-redux';
 import Animal from './Animal';
 
 const Zoo = () => {
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getAnimalsFromAPI());
-  }, []);
   const animals = useSelector((state) => state.animals, shallowEqual);
 
   return (
@@ -31,6 +26,7 @@ const Zoo = () => {
             locattions={animal.geo_range}
             image={animal.image_link}
           />
+
         ))}
       </ul>
     </div>

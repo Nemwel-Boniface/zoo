@@ -1,10 +1,8 @@
 import React from 'react';
-// import logo from '../images/simba1.webp';
 
 const Header = () => (
   <div className="Header">
     <div className="logo">
-      {/* <img src={logo} alt="Simba logo"/> */}
       <h2>Lion</h2>
     </div>
     <div className="zooname">
