@@ -8,7 +8,10 @@ const Animal = (props) => {
   } = animal;
   return (
     <div id={id} className="animal">
+      <div className='imgroute'>
       <img src={image} alt="Zoo animal" />
+      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+      </div>
       <h2>{name}</h2>
       <h3>{animalType}</h3>
     </div>
