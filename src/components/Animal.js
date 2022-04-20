@@ -3,12 +3,13 @@ import Proptypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Animal = (props) => {
-  const { animal } = props;
+  const { animal, bgNum } = props;
   const {
     id, name, image, animalType,
   } = animal;
+
   return (
-    <div id={id} className="animal">
+    <div id={id} className={bgNum === 2 || bgNum === 3 ? 'animal red' : 'animal green'}>
       <div className="imgroute">
         <img src={image} alt="Zoo animal" />
         <Link to={`/details/${id}`}>
@@ -16,7 +17,8 @@ const Animal = (props) => {
         </Link>
       </div>
       <h2>{name}</h2>
-      <h3>{animalType}</h3>
+
+      <h3>{animalType} | {bgNum}</h3>
     </div>
   );
 };
