@@ -1,9 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const Header = () => (
+
+const Header = () => {
+  const push = useNavigate();
+  return (
   <div className="Header">
     <div className="logo">
-      <h2>Lion</h2>
+     <button type="button" onClick={() => push('/')}>
+        <i className="fa fa-arrow-left" aria-hidden="true" />
+        Home
+      </button>
     </div>
     <div className="zooname">
       <h2>Zoo</h2>
@@ -13,6 +20,7 @@ const Header = () => (
       <span><i className="fa fa-cog" aria-hidden="true" /></span>
     </div>
   </div>
-);
+  )
+};
 
 export default Header;
