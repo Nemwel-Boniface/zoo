@@ -6,7 +6,7 @@ const Landing = () => (
     <img src={lnd} alt="Gif" />
     <div className="LandingDetails">
       <h2>Lions</h2>
-      <p>The king of the jungle</p>
+      <p>Male lions grow impressive manes the older they get. These manes grow up to 16cm long and are a sign of dominance.</p>
     </div>
   </div>
 );

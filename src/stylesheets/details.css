@@ -1,9 +1,9 @@
 .Details {
   width: 100%;
-  padding: 15px;
 }
 
 .Details button {
+  padding: 15px;
   background: none;
   border: none;
   outline: none;
@@ -23,6 +23,7 @@
 }
 
 .Details .animalDetails h2 {
+  padding: 15px;
   font-weight: bold;
   margin: 15px 0;
 }
@@ -36,6 +37,15 @@
   margin: 7px 0;
   display: flex;
   justify-content: space-between;
+}
+
+.Details .animalDetails .padded {
+  padding: 20px;
+  margin: auto 0;
+}
+
+.Details .animalDetails .dark {
+  background: rgba(67, 105, 178, 0.9);
 }
 
 .Details .animalDetails p .right {

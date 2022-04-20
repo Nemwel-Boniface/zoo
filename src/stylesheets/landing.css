@@ -11,6 +11,7 @@
 }
 
 .Landing .LandingDetails {
+  width: 65%;
   margin: auto 0;
   padding: 15px;
   text-align: center;
@@ -23,5 +24,5 @@
 }
 
 .Landing .LandingDetails h3 {
-  font-size: 23px;
+  font-size: 18px;
 }

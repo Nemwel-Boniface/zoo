@@ -25,47 +25,47 @@ const Details = () => {
         <img src={animal.image} alt={`${animal.name} details`} />
 
         <h2 className="characteristics">Characteristics</h2>
-        <p>
+        <p className='padded'>
           Latin Name
           <span className="right">{animal.latinName}</span>
         </p>
-        <p>
+        <p className='padded dark'>
           Animal Type
           <span className="right">{animal.animalType}</span>
         </p>
-        <p>
+        <p className='padded'>
           Active Times
           <span className="right">{animal.activeTime}</span>
         </p>
-        <p>
+        <p className='padded dark'>
           Minimum Length
           <span className="right">{animal.minLength}</span>
         </p>
-        <p>
+        <p className='padded'>
           Maximum Length
           <span className="right">{animal.maxLength}</span>
         </p>
-        <p>
+        <p className='padded dark'>
           Minimum Weight
           <span className="right">{animal.minWeight}</span>
         </p>
-        <p>
+        <p className='padded'>
           Maximum Weight
           <span className="right">{animal.maxWeight}</span>
         </p>
-        <p>
+        <p className='padded dark'>
           Life span
           <span className="right">{animal.lifeSpan}</span>
         </p>
-        <p>
+        <p className='padded'>
           Habitats
           <span className="right">{animal.habitats}</span>
         </p>
-        <p>
+        <p className='padded dark'>
           Diet
           <span className="right">{animal.diet}</span>
         </p>
-        <p>
+        <p className='padded'>
           Locations
           <span className="right">{animal.locattions}</span>
         </p>
