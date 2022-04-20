@@ -1,5 +1,4 @@
-import ZooReducer from "../redux/Zoo/Zoo";
-import { getAnimalsFromAPI } from "../redux/Zoo/Zoo";
+import ZooReducer, { getAnimalsFromAPI } from '../redux/Zoo/Zoo';
 
 const initialState = [];
 describe('Tests for Redux in project', () => {
@@ -11,6 +10,6 @@ describe('Tests for Redux in project', () => {
     expect(ZooReducer(initialState, getAnimalsFromAPI(['Plains Zebra', 'Magpie Goose', 'Fairy Bluebird', 'Black Rhinoceros', 'Mosquitofish', 'Grey Crowned Crane', 'Alpaca', 'Dyeing Poison Dart Frog', 'Green Tree Monitor', 'Blue-Crowned Motmot']))).not.toEqual(['Plains Zebra', 'Magpie Goose', 'Fairy Bluebird', 'Black Rhinoceros', 'Mosquitofish', 'Grey Crowned Crane', 'Alpaca', 'Dyeing Poison Dart Frog', 'Green Tree Monitor', 'Blue-Crowned Motmot']);
   });
   it('Test if it returns a same item in the array', () => {
-    expect(ZooReducer(initialState, getAnimalsFromAPI(['Plains Zebra']))).not.toEqual(['Plains Zebra'])
+    expect(ZooReducer(initialState, getAnimalsFromAPI(['Plains Zebra']))).not.toEqual(['Plains Zebra']);
   });
 });
