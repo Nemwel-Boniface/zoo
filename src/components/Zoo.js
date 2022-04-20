@@ -1,12 +1,14 @@
 import React from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 import Animal from './Animal';
+import Landing from './landing';
 
 const Zoo = () => {
   const animals = useSelector((state) => state.animals, shallowEqual);
 
   return (
     <div className="Zoo">
+      <Landing />
       <ul className="zooanimals">
         {animals.map((animal) => (
           <Animal

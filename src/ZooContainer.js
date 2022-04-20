@@ -3,11 +3,11 @@ import { Route, Routes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import Details from './components/details';
 import Header from './components/header';
-import Landing from './components/landing';
+// import Landing from './components/landing';
 import Zoo from './components/Zoo';
 import { getAnimalsFromAPI } from './redux/Zoo/Zoo';
 
-function ZooContainer() {
+const ZooContainer = (props) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getAnimalsFromAPI());
@@ -15,7 +15,7 @@ function ZooContainer() {
   return (
     <div className="ZooContainer">
       <Header />
-      <Landing />
+      {/* <Landing /> */}
       <Routes>
         <Route exact path="/" element={<Zoo />} />
         <Route exact path="/details/:id" element={<Details />} />
