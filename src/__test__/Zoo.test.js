@@ -7,6 +7,7 @@ import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 import ZooReducer from '../redux/Zoo/Zoo';
 import Zoo from '../components/Zoo';
+import Animal from '../components/Animal';
 
 const zoored = combineReducers({ animals: ZooReducer });
 const middleWares = [thunk, logger];
@@ -30,5 +31,25 @@ describe('Test for the home Page', () => {
       )
       .toJSON();
     expect(homePage).toMatchSnapshot();
+  });
+});
+
+describe("Test for each animal's card", () => {
+  test('Check whether the animals Card renders correctly', () => {
+    const animalsCard = renderer
+      .create(
+        <Provider store={store}>
+          <BrowserRouter>
+            <Zoo
+            id={124}
+            name='Nigerian Dwarf Goat'
+            image='https://upload.wikimedia.org/wikipedia/commons/f/fc/Nigerdwarfgoat.jpg'
+            animalType='Mammal'
+            />
+          </BrowserRouter>
+        </Provider>,
+      )
+      .toJSON();
+    expect(animalsCard).toMatchSnapshot();
   });
 });
