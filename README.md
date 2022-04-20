@@ -12,8 +12,9 @@ All the information is got from the [Zoo API](https://zoo-animal-api.herokuapp.c
 
 Enjoy!
 
-![screenshot](./images/bkstorehome.png)
-![screenshot](./images/bkstorecat.png)
+![screenshot](./images/zooHome.png)
+![screenshot](./images/Details1.png)
+![screenshot](./images/Details2.png)
 
 ## Built With
 
