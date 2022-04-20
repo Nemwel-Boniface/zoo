@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for each animal's details card Check whether the animals details Card renders correctly 1`] = `
+<div
+  className="Details"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-arrow-left"
+    />
+    Home
+  </button>
+  <div
+    className="animalDetails"
+  >
+    <h2 />
+    <img
+      alt="undefined details"
+    />
+    <h2
+      className="characteristics"
+    >
+      Characteristics
+    </h2>
+    <p
+      className="padded"
+    >
+      Latin Name
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Animal Type
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Active Times
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Minimum Length
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Maximum Length
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Minimum Weight
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Maximum Weight
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Life span
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Habitats
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Diet
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Locations
+      <span
+        className="right"
+      />
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Test for the details Page Check whether the details page renders correctly 1`] = `
+<div
+  className="Details"
+>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-arrow-left"
+    />
+    Home
+  </button>
+  <div
+    className="animalDetails"
+  >
+    <h2 />
+    <img
+      alt="undefined details"
+    />
+    <h2
+      className="characteristics"
+    >
+      Characteristics
+    </h2>
+    <p
+      className="padded"
+    >
+      Latin Name
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Animal Type
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Active Times
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Minimum Length
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Maximum Length
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Minimum Weight
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Maximum Weight
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Life span
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Habitats
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded dark"
+    >
+      Diet
+      <span
+        className="right"
+      />
+    </p>
+    <p
+      className="padded"
+    >
+      Locations
+      <span
+        className="right"
+      />
+    </p>
+  </div>
+</div>
+`;
