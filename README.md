@@ -1,20 +1,43 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React-Redux Setup
+# Nemwel ZOO
 
-This React-Redux setup is a project I am creating to serve as a template for all my React and Redux based projects. Any one who wishes to use this template is free to use it as it is free and open to anyone. Also, you may want to share and improve on the basic setup that I have done feel free to fork the project.
+Nemwel Zoo is a mobile web application that I built for my love for wild life. It features two pages: A home page and a Details page each with its own route.
+
+The home page displays 10 random images displaying the name, animal type eg `Mammal` and its image. It also allows you to be able to click on an image to give you more information about that specific animal.
+
+The details page is where all the information about a specific animal is displayed including its name, latin name, life span, habitats and so much more.
+
+All the information is got from the [Zoo API](https://zoo-animal-api.herokuapp.com) which is a free open source API.
 
 Enjoy!
 
+![screenshot](./images/zooHome.png)
+![screenshot](./images/Details1.png)
+![screenshot](./images/Details2.png)
+
 ## Built With
 
-- CRA
-- stylelint for CSS
-- Eslint for Javascript
-- React Testing Library for unit tests of the components
-- React router to handle multiple rendering of your applications
-- Redux for state management
-- React-redux to connect your React components to the Redux store
-- redux-thunk a middleware that allows you to call actions creators that return a function instead of an action object
+- HTML5
+- CSS
+- Javascript
+- React
+- Redux
+- API
+- Webpack
+- Linters
+
+## Live Demo
+
+This project was deployed to two places:
+- [Netlify](https://deploy-preview-9--serene-salamander-3dcead.netlify.app/)
+- [Heroku]() none at the moment
+
+
+## Video Demo
+
+I did a video demo of the project which can be viewed below:
+- [Loom](https://www.loom.com/share/e18ffb9c5d8f4f55afa3e5601ff40cee)
 
 
 ## Getting Started
@@ -25,11 +48,11 @@ To get a local copy up and running follow these simple example steps.
 
 In your terminal, navigate to your current directory and run this code
 
-`git@github.com:Nemwel-Boniface/react-redux-setup.git`
+`git@github.com:Nemwel-Boniface/zoo.git`
 
 Locate the directory in your file explorer
 
-`cd react-redux-setup`
+`cd zoo`
 
 Install npm or if installed already using this link
 
@@ -41,12 +64,6 @@ Start the web dev server depending on your configuration
 
 The Project should now be live on your browser
 
-## Tests
-To run your tests you can run:
-- `npm test` for unit tests with the React testing library & Jest
-- `npx eslint .` for all your JavaScript based linter checks
-- `npx stylelint "**/*.{css,scss}"` for all your CSS based linter checks
-
 ## Authors
 
 👤 **Author1**
@@ -57,7 +74,13 @@ To run your tests you can run:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Nemwel-Boniface/react-redux-setup/issues).
+Feel free to check the [issues page](https://github.com/Nemwel-Boniface/zoo/issues).
+
+
+## Acknowledgments
+
+Special thank you to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for providing this awesome design.
+
 
 ## Show your support
 
