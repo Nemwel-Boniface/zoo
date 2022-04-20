@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for the home Page Check whether the home page renders correctly 1`] = `
+<div
+  className="Zoo"
+>
+  <div
+    className="Landing"
+  >
+    <img
+      alt="Gif"
+      src="Lion.png"
+    />
+    <div
+      className="LandingDetails"
+    >
+      <h2>
+        Lions
+      </h2>
+      <p>
+        The king of the jungle
+      </p>
+    </div>
+  </div>
+  <ul
+    className="zooanimals"
+  />
+</div>
+`;
