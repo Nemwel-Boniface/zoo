@@ -1,12 +1,12 @@
 import React from 'react';
-import lnd from '../images/Lion.png';
+import lnd from '../images/big5.png';
 
 const Landing = () => (
   <div className="Landing">
     <img src={lnd} alt="Gif" />
     <div className="LandingDetails">
-      <h2>Lions</h2>
-      <p>Male lions grow impressive manes the older they get. These manes grow up to 16cm long and are a sign of dominance.</p>
+      <h2>The Big 5</h2>
+      <p>The big 5 can be found in Kenya's Maasai Mara park.</p>
     </div>
   </div>
 );
