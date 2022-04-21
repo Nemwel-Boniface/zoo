@@ -17,8 +17,7 @@ const Animal = (props) => {
         </Link>
       </div>
       <h2>{name}</h2>
-
-      <h3>{animalType} | {bgNum}</h3>
+      <h3>{animalType}</h3>
     </div>
   );
 };

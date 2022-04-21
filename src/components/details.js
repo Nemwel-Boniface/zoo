@@ -16,10 +16,6 @@ const Details = () => {
   }, []);
   return (
     <div className="Details">
-      <button type="button" onClick={() => push('/')}>
-        <i className="fa fa-arrow-left" aria-hidden="true" />
-        Home
-      </button>
       <div className="animalDetails">
         <h2>{animal.name}</h2>
         <img src={animal.image} alt={`${animal.name} details`} />
