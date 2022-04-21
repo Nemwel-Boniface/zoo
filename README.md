@@ -30,7 +30,7 @@ Enjoy!
 ## Live Demo
 
 This project was deployed to two places:
-- [Netlify](https://deploy-preview-9--serene-salamander-3dcead.netlify.app/)
+- [Netlify](https://nemwel-zoo.netlify.app/)
 - [Heroku]() none at the moment
 
 
