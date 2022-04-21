@@ -9,18 +9,27 @@ exports[`Test for each animal's card Check whether the animals Card renders corr
   >
     <img
       alt="Gif"
-      src="Lion.png"
+      src="big5.png"
     />
     <div
       className="LandingDetails"
     >
       <h2>
-        Lions
+        The Big 5
       </h2>
       <p>
-        The king of the jungle
+        The big 5 can be found in Kenya's Maasai Mara park.
       </p>
     </div>
+  </div>
+  <div
+    className="searchbar"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search eg Lion..."
+      type="text"
+    />
   </div>
   <ul
     className="zooanimals"
@@ -37,18 +46,27 @@ exports[`Test for the home Page Check whether the home page renders correctly 1`
   >
     <img
       alt="Gif"
-      src="Lion.png"
+      src="big5.png"
     />
     <div
       className="LandingDetails"
     >
       <h2>
-        Lions
+        The Big 5
       </h2>
       <p>
-        The king of the jungle
+        The big 5 can be found in Kenya's Maasai Mara park.
       </p>
     </div>
+  </div>
+  <div
+    className="searchbar"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search eg Lion..."
+      type="text"
+    />
   </div>
   <ul
     className="zooanimals"

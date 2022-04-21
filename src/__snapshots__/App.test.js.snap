@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for the Zoo component Check whether the zoo page renders correctly 1`] = `
+<div
+  className="ZooContainer"
+>
+  <div
+    className="Header"
+  >
+    <div
+      className="logo"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-arrow-left"
+        />
+        Home
+      </button>
+    </div>
+    <div
+      className="zooname"
+    >
+      <h2>
+        Zoo
+      </h2>
+    </div>
+    <div
+      className="headerIcons"
+    >
+      <span>
+        <i
+          aria-hidden="true"
+          className="fa fa-microphone"
+        />
+      </span>
+      <span>
+        <i
+          aria-hidden="true"
+          className="fa fa-cog"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="Zoo"
+  >
+    <div
+      className="Landing"
+    >
+      <img
+        alt="Gif"
+        src="big5.png"
+      />
+      <div
+        className="LandingDetails"
+      >
+        <h2>
+          The Big 5
+        </h2>
+        <p>
+          The big 5 can be found in Kenya's Maasai Mara park.
+        </p>
+      </div>
+    </div>
+    <div
+      className="searchbar"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Search eg Lion..."
+        type="text"
+      />
+    </div>
+    <ul
+      className="zooanimals"
+    />
+  </div>
+</div>
+`;

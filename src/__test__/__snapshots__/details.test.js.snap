@@ -4,16 +4,6 @@ exports[`Test for each animal's details card Check whether the animals details C
 <div
   className="Details"
 >
-  <button
-    onClick={[Function]}
-    type="button"
-  >
-    <i
-      aria-hidden="true"
-      className="fa fa-arrow-left"
-    />
-    Home
-  </button>
   <div
     className="animalDetails"
   >
@@ -122,16 +112,6 @@ exports[`Test for the details Page Check whether the details page renders correc
 <div
   className="Details"
 >
-  <button
-    onClick={[Function]}
-    type="button"
-  >
-    <i
-      aria-hidden="true"
-      className="fa fa-arrow-left"
-    />
-    Home
-  </button>
   <div
     className="animalDetails"
   >
