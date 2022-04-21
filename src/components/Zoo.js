@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { useEffect, useState } from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 import Animal from './Animal';
@@ -31,7 +30,7 @@ const Zoo = () => {
       <Landing />
 
       <div className='searchbar'>
-        <input type="text" placeholder='Search eg Lion' onChange={handleSearch}/>
+        <input type="text" placeholder='Search eg Lion...' onChange={handleSearch}/>
       </div>
       <ul className="zooanimals">
         {newAnimals.map((animal) => {
