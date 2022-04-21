@@ -1,0 +1,28 @@
+.Landing {
+  width: 100%;
+  display: flex;
+}
+
+.Landing img {
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+.Landing .LandingDetails {
+  width: 65%;
+  margin: auto 0;
+  padding: 15px;
+  text-align: center;
+}
+
+.Landing .LandingDetails h2 {
+  font-size: 24px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.Landing .LandingDetails p {
+  font-size: 18px;
+}

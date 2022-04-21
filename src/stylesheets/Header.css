@@ -1,0 +1,36 @@
+.Header {
+  background: rgba(67, 105, 178, 1);
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px 5%;
+  margin: auto 0;
+}
+
+.logo button {
+  padding: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo button i {
+  margin-right: 10px;
+}
+
+.Header .headerIcons {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 2%;
+}
+
+.Header .headerIcons span {
+  cursor: pointer;
+}
+
+.Header .headerIcons span .fa-microphone {
+  padding-right: 20px;
+}

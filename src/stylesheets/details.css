@@ -1,0 +1,38 @@
+.Details {
+  width: 100%;
+}
+
+.Details .animalDetails {
+  margin: 20px 0 0 0;
+  padding-bottom: 20px;
+}
+
+.Details .animalDetails h2 {
+  padding: 15px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.Details .animalDetails img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.Details .animalDetails p {
+  margin: 7px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Details .animalDetails .padded {
+  padding: 20px;
+  margin: auto 0;
+}
+
+.Details .animalDetails .dark {
+  background: rgba(67, 105, 178, 0.9);
+}
+
+.Details .animalDetails p .right {
+  text-align: right;
+}

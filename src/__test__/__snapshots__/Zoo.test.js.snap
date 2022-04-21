@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for each animal's card Check whether the animals Card renders correctly 1`] = `
+<div
+  className="Zoo"
+>
+  <div
+    className="Landing"
+  >
+    <img
+      alt="Gif"
+      src="big5.png"
+    />
+    <div
+      className="LandingDetails"
+    >
+      <h2>
+        The Big 5
+      </h2>
+      <p>
+        The big 5 can be found in Kenya's Maasai Mara park.
+      </p>
+    </div>
+  </div>
+  <div
+    className="searchbar"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search eg Lion..."
+      type="text"
+    />
+  </div>
+  <ul
+    className="zooanimals"
+  />
+</div>
+`;
+
+exports[`Test for the home Page Check whether the home page renders correctly 1`] = `
+<div
+  className="Zoo"
+>
+  <div
+    className="Landing"
+  >
+    <img
+      alt="Gif"
+      src="big5.png"
+    />
+    <div
+      className="LandingDetails"
+    >
+      <h2>
+        The Big 5
+      </h2>
+      <p>
+        The big 5 can be found in Kenya's Maasai Mara park.
+      </p>
+    </div>
+  </div>
+  <div
+    className="searchbar"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search eg Lion..."
+      type="text"
+    />
+  </div>
+  <ul
+    className="zooanimals"
+  />
+</div>
+`;

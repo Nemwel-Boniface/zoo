@@ -1,0 +1,57 @@
+/* The Zoo component */
+
+.Zoo {
+  width: 100%;
+}
+
+.Zoo ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  text-align: right;
+}
+
+.Zoo ul .animal {
+  margin: 20px 0;
+}
+
+.Zoo ul .animal .imgroute {
+  display: flex;
+}
+
+.Zoo ul .animal .imgroute img {
+  height: 180px;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.Zoo ul .animal .imgroute i {
+  padding: 7px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.Zoo ul .animal h2,
+h3 {
+  padding: 12px;
+}
+
+.darkBlue {
+  background: rgba(67, 105, 178, 0.9);
+}
+
+.lighterBlue {
+  background: rgba(67, 105, 178, 0.65);
+}
+
+.searchbar {
+  padding: 10px;
+}
+
+.searchbar input {
+  border: 1px solid #000;
+  background: rgba(67, 105, 178, 0.65);
+  color: #fff;
+  padding: 10px;
+}

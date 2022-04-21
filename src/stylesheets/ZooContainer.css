@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.ZooContainer {
+  width: 100%;
+  background: rgba(67, 105, 178, 0.8);
+}
