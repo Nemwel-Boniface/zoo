@@ -1,44 +1,42 @@
 import React, { useEffect, useState } from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 import Animal from './Animal';
-import { useDispatch } from 'react-redux';
 import Landing from './landing';
 
 const Zoo = () => {
   const animals = useSelector((state) => state.animals, shallowEqual);
-  const [newAnimals, setNewAnimals] = useState([])
+  const [newAnimals, setNewAnimals] = useState([]);
   let number = 0;
 
   useEffect(() => {
-    setNewAnimals(animals)
-  }, [animals])
+    setNewAnimals(animals);
+  }, [animals]);
 
   const handleSearch = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     let myValue = e.target.value;
     if (myValue.length > 0) {
-      myValue = myValue.toLowerCase()
-      const filteredAnimals = animals.filter((animal) => animal.name.toLowerCase().includes(myValue))
-      setNewAnimals(filteredAnimals)
+      myValue = myValue.toLowerCase();
+      const filteredAnmls = animals.filter((animal) => animal.name.toLowerCase().includes(myValue));
+      setNewAnimals(filteredAnmls);
     } else {
-      setNewAnimals(animals)
+      setNewAnimals(animals);
     }
-  }
+  };
 
   return (
     <div className="Zoo">
       <Landing />
 
-      <div className='searchbar'>
-        <input type="text" placeholder='Search eg Lion...' onChange={handleSearch}/>
+      <div className="searchbar">
+        <input type="text" placeholder="Search eg Lion..." onChange={handleSearch} />
       </div>
       <ul className="zooanimals">
         {newAnimals.map((animal) => {
-
           if ((number + 1) > 4) {
-            number = 1
+            number = 1;
           } else {
-            number += 1
+            number += 1;
           }
 
           return (
@@ -60,7 +58,8 @@ const Zoo = () => {
               locattions={animal.geo_range}
               image={animal.image_link}
             />
-          )})}
+          );
+        })}
 
       </ul>
     </div>

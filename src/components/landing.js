@@ -6,7 +6,7 @@ const Landing = () => (
     <img src={lnd} alt="Gif" />
     <div className="LandingDetails">
       <h2>The Big 5</h2>
-      <p>The big 5 can be found in Kenya's Maasai Mara park.</p>
+      <p>The big 5 can be found in Kenya&apos;s Maasai Mara park.</p>
     </div>
   </div>
 );

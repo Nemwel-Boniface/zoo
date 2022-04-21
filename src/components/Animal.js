@@ -23,6 +23,10 @@ const Animal = (props) => {
 };
 
 Animal.propTypes = {
+  bgNum: Proptypes.shape({
+    bgNum: Proptypes.number.isRequired,
+
+  }).isRequired,
   animal: Proptypes.shape({
     id: Proptypes.number.isRequired,
     name: Proptypes.string.isRequired,
