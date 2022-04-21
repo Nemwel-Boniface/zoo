@@ -1,14 +1,31 @@
-import React from 'react';
+/* eslint-disable */
+import React, { useEffect, useState } from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 import Animal from './Animal';
+import { useDispatch } from 'react-redux';
 import Landing from './landing';
 
 const Zoo = () => {
   const animals = useSelector((state) => state.animals, shallowEqual);
+  const [newAnimals, setNewAnimals] = useState([])
   let number = 0;
-  const handleSearch = () => {
 
+  useEffect(() => {
+    setNewAnimals(animals)
+  }, [animals])
+
+  const handleSearch = (e) => {
+    e.preventDefault()
+    let myValue = e.target.value;
+    if (myValue.length > 0) {
+      myValue = myValue.toLowerCase()
+      const filteredAnimals = animals.filter((animal) => animal.name.toLowerCase().includes(myValue))
+      setNewAnimals(filteredAnimals)
+    } else {
+      setNewAnimals(animals)
+    }
   }
+
   return (
     <div className="Zoo">
       <Landing />
@@ -17,7 +34,7 @@ const Zoo = () => {
         <input type="text" placeholder='Search eg Lion' onChange={handleSearch}/>
       </div>
       <ul className="zooanimals">
-        {animals.map((animal) => {
+        {newAnimals.map((animal) => {
 
           if ((number + 1) > 4) {
             number = 1
