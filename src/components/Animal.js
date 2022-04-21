@@ -9,7 +9,7 @@ const Animal = (props) => {
   } = animal;
 
   return (
-    <div id={id} className={bgNum === 2 || bgNum === 3 ? 'animal red' : 'animal green'}>
+    <div id={id} className={bgNum === 2 || bgNum === 3 ? 'animal darkBlue' : 'animal lighterBlue'}>
       <div className="imgroute">
         <img src={image} alt="Zoo animal" />
         <Link to={`/details/${id}`}>

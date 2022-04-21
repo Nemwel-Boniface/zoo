@@ -12,8 +12,7 @@
 }
 
 .Zoo ul .animal {
-  margin: 30px 0;
-  background: rgba(67, 105, 178, 0.9);
+  margin: 20px 0;
 }
 
 .Zoo ul .animal .imgroute {
@@ -36,4 +35,12 @@
 .Zoo ul .animal h2,
 h3 {
   padding: 12px;
+}
+
+.darkBlue {
+  background: rgba(67, 105, 178, 0.9);
+}
+
+.lighterBlue {
+  background: rgba(67, 105, 178, 0.65);
 }
