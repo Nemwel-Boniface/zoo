@@ -7,6 +7,20 @@
   margin: auto 0;
 }
 
+.logo button {
+  padding: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo button i {
+  margin-right: 10px;
+}
+
 .Header .headerIcons {
   display: flex;
   justify-content: space-between;
